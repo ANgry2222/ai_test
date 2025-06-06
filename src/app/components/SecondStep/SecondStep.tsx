@@ -37,7 +37,6 @@ export const SecondStep = () => {
 
 	const checkFormValidity = () => {
 		if (!formRef.current) return;
-		console.log(formRef.current.checkValidity());
 		setIsFormValid(formRef.current.checkValidity());
 	};
 
@@ -129,7 +128,6 @@ export const SecondStep = () => {
 	};
 
 	const onFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-		console.log("1234");
 		event.preventDefault();
 
 		if (formRef.current) {
@@ -163,7 +161,6 @@ export const SecondStep = () => {
 				}
 
 				const result = await response.json();
-				console.log("result: ", result);
 				if (!result.task_id) {
 					throw new Error("Сервер не вернул task_id");
 				}

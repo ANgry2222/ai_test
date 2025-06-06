@@ -4,8 +4,6 @@ import styles from "./ThirdStep.module.scss";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 import DownloadButton from "../DownloadButton/DownloadButton";
 
-//"https://sirius-draw-test-94500a1b4a2f.herokuapp.com/report/8265c881-b5b1-4123-8196-64ece107a8e9"
-
 export const ThirdStep = () => {
 	const taskId = useAppSelector((state) => state.taskId.taskId);
 	const [responseText, setResponseText] =
@@ -22,9 +20,6 @@ export const ThirdStep = () => {
 					`https://sirius-draw-test-94500a1b4a2f.herokuapp.com/report/${taskId}`
 				)
 					.then((response) => {
-						console.log(response);
-						console.log(response.headers.get("content-type"));
-
 						if (
 							response.headers.get("content-type") ===
 							"application/json"
@@ -37,7 +32,6 @@ export const ThirdStep = () => {
 					})
 					.then((result) => {
 						if (!(result instanceof Blob)) {
-							console.log("Данные:", result.status);
 							setResponseText(result.status);
 						} else {
 							setPdfBlob(result);

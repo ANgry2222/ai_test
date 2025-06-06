@@ -49,8 +49,6 @@ export const FirstStep = () => {
 			formData.append("files", imageFormValues.image3);
 		}
 
-		console.log(formData);
-
 		try {
 			const response = await fetch(
 				"https://sirius-draw-test-94500a1b4a2f.herokuapp.com/upload",
@@ -60,15 +58,12 @@ export const FirstStep = () => {
 				}
 			);
 
-			console.log("123");
-
 			if (!response.ok) {
 				throw new Error(`Ошибка сервера: ${response.status}`);
 			}
 			dispatch(setCurrentStep(2));
 
 			const result = await response.json();
-			console.log("result: ", result);
 			if (!result.task_id) {
 				throw new Error("Сервер не вернул task_id");
 			}
