@@ -1,0 +1,21 @@
+.banner {
+	background-color: #fdeeef;
+	color: #e12828;
+	border-radius: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	max-width: fit-content;
+	padding: 8px 12px;
+	gap: 8px;
+	font-size: 14px;
+	margin-top: 8px;
+	margin-bottom: 32px;
+	line-height: 100%;
+
+	@media (max-width: 599px) {
+		margin-bottom: 16px;
+		border-radius: 8px;
+	}
+}

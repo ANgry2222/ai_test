@@ -1,0 +1,30 @@
+.button {
+	background-color: #45a4f6;
+	border-radius: 100px;
+	border: none;
+	height: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 135%;
+	color: #fff;
+	padding: 10px 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 8px;
+	align-items: center;
+
+	&:hover {
+		background-color: hsl(207, 90%, 72%);
+	}
+
+	&:active {
+		background-color: hsl(207, 90%, 80%);
+	}
+
+	&:disabled {
+		background-color: rgba(68, 83, 113, 0.1);
+		color: rgba(68, 83, 113, 0.5);
+		font-size: 16px;
+	}
+}

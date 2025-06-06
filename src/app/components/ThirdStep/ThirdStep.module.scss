@@ -1,0 +1,54 @@
+.step_container {
+	width: min(900px, 100%);
+	justify-self: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid gray;
+	border-radius: 20px;
+	font-family: "CirceRounded";
+	font-weight: 400;
+	line-height: 135%;
+	text-align: center;
+	padding: 64px 64px 32px 64px;
+	gap: 20px;
+
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.35);
+	-moz-box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.35);
+	box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.35);
+
+	background: linear-gradient(to right, #7abef8 0 100%),
+		linear-gradient(to bottom, #7abef8 0 16px, white 16px 100%);
+	background-size: 100% 16px, 100% 100%;
+	background-repeat: no-repeat;
+
+	@media (max-width: 899px) {
+		padding: 32px 24px 24px 24px;
+		margin: 0;
+		border: none;
+		box-shadow: none;
+		border-radius: 0;
+	}
+
+	@media (max-width: 599px) {
+		padding: 24px 12px 12px 12px;
+		margin: 0;
+		border: none;
+		box-shadow: none;
+		border-radius: 0;
+	}
+}
+
+.buttons_container {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 10px 30px;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}

@@ -1,0 +1,30 @@
+.button_wrapper {
+	width: 64px;
+	height: 64px;
+	background-color: #daedfd;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	> .svg_small {
+		display: none;
+	}
+
+	> .svg_large {
+		display: block;
+	}
+
+	@media (max-width: 899px) {
+		width: 32px;
+		height: 32px;
+
+		> .svg_small {
+			display: block;
+		}
+
+		> .svg_large {
+			display: none;
+		}
+	}
+}

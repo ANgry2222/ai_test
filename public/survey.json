@@ -1,0 +1,288 @@
+{
+  "survey": [
+    {
+        "name": "section_1",
+        "header_text": "Общая информация о ребенке",
+        "questions": [
+          {
+            "name": "childName",
+            "question_text": "Имя ребенка",
+            "question_type": "textline"
+          },
+          {
+            "name": "childDOB",
+            "question_text": "Дата рождения ребенка",
+            "question_type": "datepicker"
+          },
+          {
+            "name": "childGender",
+            "question_text": "Пол ребенка",
+            "question_type": "radio",
+            "answer_options":[
+            {"label": "Мужской", "value": "male"},
+            {"label": "Женский", "value": "female"}
+          ]
+          },
+          {
+            "name": "parentName",
+            "question_text": "Имя родителя, заполняющего анкету",
+            "question_type": "textline"
+          }
+        ]
+      },
+    {
+      "name": "section_2",
+      "header_text": "Раздел 1. Эмоциональная сфера",
+      "questions": [
+        {
+          "name": "q1_1",
+          "question_text": "Ребенок часто выражает радость и удовольствие:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_2",
+          "question_text": "Ребенок часто выражает радость и удовольствие:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_3",
+          "question_text": "Ребенок часто грустит или плачет без видимой причины:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_4",
+          "question_text": "Ребенок часто грустит или плачет без видимой причины:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "section_3",
+      "header_text": "Раздел 2. Социальное взаимодействие",
+      "questions": [
+        {
+          "name": "q1_5",
+          "question_text": "Ребенок легко заводит друзей:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_6",
+          "question_text": "Ребенок легко заводит друзей:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_7",
+          "question_text": "Ребенок предпочитает играть один, а не с другими детьми:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_8",
+          "question_text": "Ребенок предпочитает играть один, а не с другими детьми:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "section_4",
+      "header_text": "Раздел 3. Саморегуляция и поведение",
+      "questions": [
+        {
+          "name": "q1_9",
+          "question_text": "Ребенок умеет следовать правилам и инструкциям:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q1_10",
+          "question_text": "Ребенок умеет следовать правилам и инструкциям:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q2_1",
+          "question_text": "Ребенку трудно контролировать свои импульсы:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q2_2",
+          "question_text": "Ребенку трудно контролировать свои импульсы:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "section_5",
+      "header_text": "Раздел 4. Самооценка и уверенность в себе",
+      "questions": [
+        {
+          "name": "q2_3",
+          "question_text": "Ребенок уверен в своих силах и способностях:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q2_4",
+          "question_text": "Ребенок уверен в своих силах и способностях:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q2_5",
+          "question_text": "Ребенок часто сомневается в себе:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        },
+        {
+          "name": "q2_6",
+          "question_text": "Ребенок часто сомневается в себе:",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Очень редко", "value": 1},
+            {"label": "Редко", "value": 2},
+            {"label": "Иногда", "value": 3},
+            {"label": "Часто", "value": 4},
+            {"label": "Всегда", "value": 5}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "section_6",
+      "header_text": "Раздел 5. Общие вопросы",
+      "questions": [
+        {
+          "name": "emotionalState",
+          "question_text": "Как Вы оцениваете общее эмоциональное состояние Вашего ребенка?",
+          "question_type": "radio",
+          "answer_options":[
+            {"label": "Отличное", "value": 5},
+            {"label": "Хорошее", "value": 4},
+            {"label": "Удовлетворительое", "value": 3},
+            {"label": "Неудовлетворительое", "value": 2},
+            {"label": "Очень плохое", "value": 1}
+          ]
+        },
+        {
+          "name": "q2_8",
+          "question_text": "Есть ли у вашего ребенка какие-либо особенности развития или поведения, о которых Вы хотели бы сообщить дополнительно?",
+          "question_type": "textarea"
+        },
+        {
+          "name": "q2_9",
+          "question_text": "Какие, на Ваш взгляд, сильные стороны и таланты есть у Вашего ребенка?",
+          "question_type": "textarea"
+        },
+        {
+          "name": "q2_10",
+          "question_text": "Какие, на Ваш взгляд, области требуют особого внимания и развития у Вашего ребенка?",
+          "question_type": "textarea"
+        },
+        {
+          "name": "q3_1",
+          "question_text": "Обращались ли Вы ранее к специалистам (психологу, неврологу, логопеду) по поводу развития или поведения Вашего ребенка?",
+          "question_type": "textline"
+        }
+      ]
+    }
+  ]
+}

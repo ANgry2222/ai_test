@@ -1,0 +1,29 @@
+.button {
+	background-color: #45a4f6;
+	border-radius: 100px;
+	border: none;
+	height: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 135%;
+	color: #fff;
+	padding: 8px 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 8px;
+	align-items: center;
+
+	&:hover {
+		background-color: #007ee5;
+	}
+
+	&:disabled {
+		background-color: #e8e9ed;
+		color: #969eaf;
+	}
+
+	@media (max-width: 599px) {
+		order: 1;
+	}
+}
